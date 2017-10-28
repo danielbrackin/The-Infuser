@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		110EAB321F49EC7B006170F1 /* SongTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110EAB311F49EC7B006170F1 /* SongTableViewCell.swift */; };
+		1111F9B51F81C0E700E085DB /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1111F9AA1F81C0D800E085DB /* Roboto-Black.ttf */; };
+		1111F9B61F81C0E700E085DB /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1111F9A91F81C0D700E085DB /* Roboto-Bold.ttf */; };
+		1111F9B71F81C0E700E085DB /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1111F9AB1F81C0D900E085DB /* Roboto-Italic.ttf */; };
+		1111F9B81F81C0E700E085DB /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1111F9A81F81C0D500E085DB /* Roboto-Light.ttf */; };
+		1111F9B91F81C0E700E085DB /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1111F9A71F81C0D400E085DB /* Roboto-Medium.ttf */; };
+		1111F9BA1F81C0E700E085DB /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1111F9AD1F81C0DB00E085DB /* Roboto-Regular.ttf */; };
+		1111F9BB1F81C0E700E085DB /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1111F9AC1F81C0DA00E085DB /* Roboto-Thin.ttf */; };
+		1124B9331F643DFF00B397AD /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1124B9321F643DFF00B397AD /* Menu.swift */; };
+		112F27CE1F510C2900A11B0E /* Extra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112F27CD1F510C2900A11B0E /* Extra.swift */; };
+		11346EF71F5A4969006028AB /* boxicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 11346EF41F5A4969006028AB /* boxicon.png */; };
+		11346EF81F5A4969006028AB /* musicicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 11346EF51F5A4969006028AB /* musicicon.png */; };
+		11346EF91F5A4969006028AB /* homeicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 11346EF61F5A4969006028AB /* homeicon.png */; };
+		113A73421FA24CD600E7098E /* Extra Code.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113A73411FA24CD600E7098E /* Extra Code.swift */; };
+		1178549F1F42855500C800ED /* WorshipSongs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1178549E1F42855500C800ED /* WorshipSongs.swift */; };
+		117854A41F4285E900C800ED /* WorshipSongViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117854A31F4285E900C800ED /* WorshipSongViewController.swift */; };
+		117854AF1F4286DE00C800ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 117854AE1F4286DE00C800ED /* Main.storyboard */; };
+		117854B41F42873C00C800ED /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 117854B11F42873C00C800ED /* Background.png */; };
+		117854B51F42873C00C800ED /* Asset 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 117854B21F42873C00C800ED /* Asset 1.png */; };
+		117854B61F42873C00C800ED /* Asset 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 117854B31F42873C00C800ED /* Asset 3.png */; };
+		117854BC1F4288F800C800ED /* HomeUpdates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117854BB1F4288F800C800ED /* HomeUpdates.swift */; };
+		1178AFB61F5A52C100139B48 /* boxiconfilled.png in Resources */ = {isa = PBXBuildFile; fileRef = 1178AFB31F5A52C100139B48 /* boxiconfilled.png */; };
+		1178AFB71F5A52C100139B48 /* homeiconfilled.png in Resources */ = {isa = PBXBuildFile; fileRef = 1178AFB41F5A52C100139B48 /* homeiconfilled.png */; };
+		1178AFB81F5A52C100139B48 /* musiciconfilled.png in Resources */ = {isa = PBXBuildFile; fileRef = 1178AFB51F5A52C100139B48 /* musiciconfilled.png */; };
+		118503771F65CC1400CBC2F6 /* homeiconfade.png in Resources */ = {isa = PBXBuildFile; fileRef = 118503741F65CC1400CBC2F6 /* homeiconfade.png */; };
+		118503781F65CC1400CBC2F6 /* musiciconfade.png in Resources */ = {isa = PBXBuildFile; fileRef = 118503751F65CC1400CBC2F6 /* musiciconfade.png */; };
+		118503791F65CC1400CBC2F6 /* boxiconfade.png in Resources */ = {isa = PBXBuildFile; fileRef = 118503761F65CC1400CBC2F6 /* boxiconfade.png */; };
+		118800F61F4E63D500B06316 /* WorshipSongsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118800F51F4E63D500B06316 /* WorshipSongsCell.swift */; };
+		11BB2B481F4149F200ABDF02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BB2B471F4149F200ABDF02 /* AppDelegate.swift */; };
+		11BB2B4A1F4149F200ABDF02 /* WorshipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BB2B491F4149F200ABDF02 /* WorshipView.swift */; };
+		11BB2B4F1F4149F200ABDF02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11BB2B4E1F4149F200ABDF02 /* Assets.xcassets */; };
+		11BB2B521F4149F200ABDF02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11BB2B501F4149F200ABDF02 /* LaunchScreen.storyboard */; };
+		11BB2B5A1F414AC200ABDF02 /* ScanFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BB2B591F414AC200ABDF02 /* ScanFile.swift */; };
+		11E865D51F52094700F0C1D4 /* background_new.png in Resources */ = {isa = PBXBuildFile; fileRef = 11E865D41F52094700F0C1D4 /* background_new.png */; };
+		11E865D71F520ED700F0C1D4 /* heading_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 11E865D61F520ED700F0C1D4 /* heading_1.png */; };
+		11E865D91F52119F00F0C1D4 /* backColor.png in Resources */ = {isa = PBXBuildFile; fileRef = 11E865D81F52119F00F0C1D4 /* backColor.png */; };
+		11E865DB1F52167400F0C1D4 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E865DA1F52167400F0C1D4 /* CustomTabBar.swift */; };
+		11E865DD1F5228B900F0C1D4 /* Rectangle.png in Resources */ = {isa = PBXBuildFile; fileRef = 11E865DC1F5228B900F0C1D4 /* Rectangle.png */; };
+		11E865DF1F522B3800F0C1D4 /* newbar.png in Resources */ = {isa = PBXBuildFile; fileRef = 11E865DE1F522B3800F0C1D4 /* newbar.png */; };
+		38AA6643B316DB8F34DEF73B /* Pods_TheInfuser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DC258007B10DCFC7ACEF2B8 /* Pods_TheInfuser.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		117854AC1F42862500C800ED /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		022EF91A494724C7A132DE49 /* Pods-TheInfuser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheInfuser.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TheInfuser/Pods-TheInfuser.debug.xcconfig"; sourceTree = "<group>"; };
+		110EAB311F49EC7B006170F1 /* SongTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongTableViewCell.swift; sourceTree = "<group>"; };
+		1111F9A71F81C0D400E085DB /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		1111F9A81F81C0D500E085DB /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		1111F9A91F81C0D700E085DB /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		1111F9AA1F81C0D800E085DB /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		1111F9AB1F81C0D900E085DB /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		1111F9AC1F81C0DA00E085DB /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		1111F9AD1F81C0DB00E085DB /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		1124B9321F643DFF00B397AD /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		112F27CD1F510C2900A11B0E /* Extra.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extra.swift; sourceTree = "<group>"; };
+		11346EF41F5A4969006028AB /* boxicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boxicon.png; sourceTree = "<group>"; };
+		11346EF51F5A4969006028AB /* musicicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = musicicon.png; sourceTree = "<group>"; };
+		11346EF61F5A4969006028AB /* homeicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homeicon.png; sourceTree = "<group>"; };
+		113A73411FA24CD600E7098E /* Extra Code.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extra Code.swift"; sourceTree = "<group>"; };
+		1178549E1F42855500C800ED /* WorshipSongs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorshipSongs.swift; sourceTree = "<group>"; };
+		117854A31F4285E900C800ED /* WorshipSongViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorshipSongViewController.swift; sourceTree = "<group>"; };
+		117854AD1F42862A00C800ED /* TheInfuser.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TheInfuser.entitlements; sourceTree = "<group>"; };
+		117854AE1F4286DE00C800ED /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
+		117854B11F42873C00C800ED /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
+		117854B21F42873C00C800ED /* Asset 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Asset 1.png"; sourceTree = "<group>"; };
+		117854B31F42873C00C800ED /* Asset 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Asset 3.png"; sourceTree = "<group>"; };
+		117854BB1F4288F800C800ED /* HomeUpdates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeUpdates.swift; sourceTree = "<group>"; };
+		1178AFB31F5A52C100139B48 /* boxiconfilled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boxiconfilled.png; sourceTree = "<group>"; };
+		1178AFB41F5A52C100139B48 /* homeiconfilled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homeiconfilled.png; sourceTree = "<group>"; };
+		1178AFB51F5A52C100139B48 /* musiciconfilled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = musiciconfilled.png; sourceTree = "<group>"; };
+		118503741F65CC1400CBC2F6 /* homeiconfade.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = homeiconfade.png; path = Fade/homeiconfade.png; sourceTree = "<group>"; };
+		118503751F65CC1400CBC2F6 /* musiciconfade.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = musiciconfade.png; path = Fade/musiciconfade.png; sourceTree = "<group>"; };
+		118503761F65CC1400CBC2F6 /* boxiconfade.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = boxiconfade.png; path = Fade/boxiconfade.png; sourceTree = "<group>"; };
+		118800F51F4E63D500B06316 /* WorshipSongsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorshipSongsCell.swift; sourceTree = "<group>"; };
+		11BB2B441F4149F200ABDF02 /* TheInfuser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheInfuser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11BB2B471F4149F200ABDF02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		11BB2B491F4149F200ABDF02 /* WorshipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorshipView.swift; sourceTree = "<group>"; };
+		11BB2B4E1F4149F200ABDF02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11BB2B511F4149F200ABDF02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		11BB2B531F4149F200ABDF02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11BB2B591F414AC200ABDF02 /* ScanFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanFile.swift; sourceTree = "<group>"; };
+		11E865D41F52094700F0C1D4 /* background_new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_new.png; sourceTree = "<group>"; };
+		11E865D61F520ED700F0C1D4 /* heading_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heading_1.png; sourceTree = "<group>"; };
+		11E865D81F52119F00F0C1D4 /* backColor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backColor.png; sourceTree = "<group>"; };
+		11E865DA1F52167400F0C1D4 /* CustomTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		11E865DC1F5228B900F0C1D4 /* Rectangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rectangle.png; sourceTree = "<group>"; };
+		11E865DE1F522B3800F0C1D4 /* newbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newbar.png; sourceTree = "<group>"; };
+		4DC258007B10DCFC7ACEF2B8 /* Pods_TheInfuser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheInfuser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA7EAE8B468226A1839D7C87 /* Pods-TheInfuser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheInfuser.release.xcconfig"; path = "Pods/Target Support Files/Pods-TheInfuser/Pods-TheInfuser.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11BB2B411F4149F200ABDF02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38AA6643B316DB8F34DEF73B /* Pods_TheInfuser.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		117854A01F42855A00C800ED /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				1178549E1F42855500C800ED /* WorshipSongs.swift */,
+				118800F51F4E63D500B06316 /* WorshipSongsCell.swift */,
+				11BB2B491F4149F200ABDF02 /* WorshipView.swift */,
+				117854A31F4285E900C800ED /* WorshipSongViewController.swift */,
+				113A73411FA24CD600E7098E /* Extra Code.swift */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
+		117854A11F42856600C800ED /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Realm;
+			sourceTree = "<group>";
+		};
+		117854A21F42859900C800ED /* File-Handling */ = {
+			isa = PBXGroup;
+			children = (
+				1111F9AA1F81C0D800E085DB /* Roboto-Black.ttf */,
+				1111F9A91F81C0D700E085DB /* Roboto-Bold.ttf */,
+				1111F9AB1F81C0D900E085DB /* Roboto-Italic.ttf */,
+				1111F9A81F81C0D500E085DB /* Roboto-Light.ttf */,
+				1111F9A71F81C0D400E085DB /* Roboto-Medium.ttf */,
+				1111F9AD1F81C0DB00E085DB /* Roboto-Regular.ttf */,
+				1111F9AC1F81C0DA00E085DB /* Roboto-Thin.ttf */,
+				11BB2B591F414AC200ABDF02 /* ScanFile.swift */,
+			);
+			name = "File-Handling";
+			sourceTree = "<group>";
+		};
+		117854A51F4285F200C800ED /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				110EAB311F49EC7B006170F1 /* SongTableViewCell.swift */,
+				117854BB1F4288F800C800ED /* HomeUpdates.swift */,
+				11E865DA1F52167400F0C1D4 /* CustomTabBar.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		117854B01F42870600C800ED /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				11E865DE1F522B3800F0C1D4 /* newbar.png */,
+				11E865DC1F5228B900F0C1D4 /* Rectangle.png */,
+				11E865D81F52119F00F0C1D4 /* backColor.png */,
+				11E865D61F520ED700F0C1D4 /* heading_1.png */,
+				11E865D41F52094700F0C1D4 /* background_new.png */,
+				117854B11F42873C00C800ED /* Background.png */,
+				117854B21F42873C00C800ED /* Asset 1.png */,
+				117854B31F42873C00C800ED /* Asset 3.png */,
+			);
+			name = Photos;
+			sourceTree = "<group>";
+		};
+		11BB2B3B1F4149F200ABDF02 = {
+			isa = PBXGroup;
+			children = (
+				118503741F65CC1400CBC2F6 /* homeiconfade.png */,
+				118503751F65CC1400CBC2F6 /* musiciconfade.png */,
+				118503761F65CC1400CBC2F6 /* boxiconfade.png */,
+				1178AFB31F5A52C100139B48 /* boxiconfilled.png */,
+				1178AFB41F5A52C100139B48 /* homeiconfilled.png */,
+				1178AFB51F5A52C100139B48 /* musiciconfilled.png */,
+				11346EF41F5A4969006028AB /* boxicon.png */,
+				11346EF51F5A4969006028AB /* musicicon.png */,
+				11346EF61F5A4969006028AB /* homeicon.png */,
+				112F27CD1F510C2900A11B0E /* Extra.swift */,
+				11BB2B461F4149F200ABDF02 /* TheInfuser */,
+				11BB2B451F4149F200ABDF02 /* Products */,
+				4797E1A3B70D2B70B9134583 /* Pods */,
+				AE1A6F72899D6AEF92BAB9D5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		11BB2B451F4149F200ABDF02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11BB2B441F4149F200ABDF02 /* TheInfuser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11BB2B461F4149F200ABDF02 /* TheInfuser */ = {
+			isa = PBXGroup;
+			children = (
+				117854AE1F4286DE00C800ED /* Main.storyboard */,
+				1124B9321F643DFF00B397AD /* Menu.swift */,
+				117854AD1F42862A00C800ED /* TheInfuser.entitlements */,
+				117854A11F42856600C800ED /* Realm */,
+				117854A51F4285F200C800ED /* Controllers */,
+				117854A01F42855A00C800ED /* Objects */,
+				117854A21F42859900C800ED /* File-Handling */,
+				11BB2B4E1F4149F200ABDF02 /* Assets.xcassets */,
+				11BB2B501F4149F200ABDF02 /* LaunchScreen.storyboard */,
+				11BB2B531F4149F200ABDF02 /* Info.plist */,
+				11BB2B471F4149F200ABDF02 /* AppDelegate.swift */,
+				117854B01F42870600C800ED /* Photos */,
+			);
+			path = TheInfuser;
+			sourceTree = SOURCE_ROOT;
+		};
+		4797E1A3B70D2B70B9134583 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				022EF91A494724C7A132DE49 /* Pods-TheInfuser.debug.xcconfig */,
+				BA7EAE8B468226A1839D7C87 /* Pods-TheInfuser.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AE1A6F72899D6AEF92BAB9D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DC258007B10DCFC7ACEF2B8 /* Pods_TheInfuser.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11BB2B431F4149F200ABDF02 /* TheInfuser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11BB2B561F4149F200ABDF02 /* Build configuration list for PBXNativeTarget "TheInfuser" */;
+			buildPhases = (
+				AA6CA91F9B8215BC3E58ACA4 /* [CP] Check Pods Manifest.lock */,
+				11BB2B401F4149F200ABDF02 /* Sources */,
+				11BB2B411F4149F200ABDF02 /* Frameworks */,
+				11BB2B421F4149F200ABDF02 /* Resources */,
+				117854AC1F42862500C800ED /* Embed Frameworks */,
+				49BE78757C14885FB1FAD014 /* [CP] Embed Pods Frameworks */,
+				FA1C6DEDD4D4922D0FB81D3D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TheInfuser;
+			productName = TheInfuser;
+			productReference = 11BB2B441F4149F200ABDF02 /* TheInfuser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11BB2B3C1F4149F200ABDF02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Daniel Brackin";
+				TargetAttributes = {
+					11BB2B431F4149F200ABDF02 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 55GHPH66Y5;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 11BB2B3F1F4149F200ABDF02 /* Build configuration list for PBXProject "TheInfuser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11BB2B3B1F4149F200ABDF02;
+			productRefGroup = 11BB2B451F4149F200ABDF02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11BB2B431F4149F200ABDF02 /* TheInfuser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11BB2B421F4149F200ABDF02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				118503791F65CC1400CBC2F6 /* boxiconfade.png in Resources */,
+				11E865DF1F522B3800F0C1D4 /* newbar.png in Resources */,
+				118503771F65CC1400CBC2F6 /* homeiconfade.png in Resources */,
+				11E865D71F520ED700F0C1D4 /* heading_1.png in Resources */,
+				1111F9B61F81C0E700E085DB /* Roboto-Bold.ttf in Resources */,
+				1111F9B91F81C0E700E085DB /* Roboto-Medium.ttf in Resources */,
+				11BB2B521F4149F200ABDF02 /* LaunchScreen.storyboard in Resources */,
+				117854B41F42873C00C800ED /* Background.png in Resources */,
+				11346EF71F5A4969006028AB /* boxicon.png in Resources */,
+				118503781F65CC1400CBC2F6 /* musiciconfade.png in Resources */,
+				1111F9BA1F81C0E700E085DB /* Roboto-Regular.ttf in Resources */,
+				1111F9B71F81C0E700E085DB /* Roboto-Italic.ttf in Resources */,
+				11BB2B4F1F4149F200ABDF02 /* Assets.xcassets in Resources */,
+				1178AFB61F5A52C100139B48 /* boxiconfilled.png in Resources */,
+				1178AFB71F5A52C100139B48 /* homeiconfilled.png in Resources */,
+				1111F9B51F81C0E700E085DB /* Roboto-Black.ttf in Resources */,
+				1111F9B81F81C0E700E085DB /* Roboto-Light.ttf in Resources */,
+				1111F9BB1F81C0E700E085DB /* Roboto-Thin.ttf in Resources */,
+				1178AFB81F5A52C100139B48 /* musiciconfilled.png in Resources */,
+				117854B61F42873C00C800ED /* Asset 3.png in Resources */,
+				11E865DD1F5228B900F0C1D4 /* Rectangle.png in Resources */,
+				117854AF1F4286DE00C800ED /* Main.storyboard in Resources */,
+				11346EF91F5A4969006028AB /* homeicon.png in Resources */,
+				11E865D51F52094700F0C1D4 /* background_new.png in Resources */,
+				11E865D91F52119F00F0C1D4 /* backColor.png in Resources */,
+				11346EF81F5A4969006028AB /* musicicon.png in Resources */,
+				117854B51F42873C00C800ED /* Asset 1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		49BE78757C14885FB1FAD014 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TheInfuser/Pods-TheInfuser-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA6CA91F9B8215BC3E58ACA4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FA1C6DEDD4D4922D0FB81D3D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TheInfuser/Pods-TheInfuser-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11BB2B401F4149F200ABDF02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				117854A41F4285E900C800ED /* WorshipSongViewController.swift in Sources */,
+				11BB2B4A1F4149F200ABDF02 /* WorshipView.swift in Sources */,
+				11BB2B481F4149F200ABDF02 /* AppDelegate.swift in Sources */,
+				110EAB321F49EC7B006170F1 /* SongTableViewCell.swift in Sources */,
+				11BB2B5A1F414AC200ABDF02 /* ScanFile.swift in Sources */,
+				1124B9331F643DFF00B397AD /* Menu.swift in Sources */,
+				112F27CE1F510C2900A11B0E /* Extra.swift in Sources */,
+				11E865DB1F52167400F0C1D4 /* CustomTabBar.swift in Sources */,
+				1178549F1F42855500C800ED /* WorshipSongs.swift in Sources */,
+				117854BC1F4288F800C800ED /* HomeUpdates.swift in Sources */,
+				113A73421FA24CD600E7098E /* Extra Code.swift in Sources */,
+				118800F61F4E63D500B06316 /* WorshipSongsCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		11BB2B501F4149F200ABDF02 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11BB2B511F4149F200ABDF02 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11BB2B541F4149F200ABDF02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11BB2B551F4149F200ABDF02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11BB2B571F4149F200ABDF02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 022EF91A494724C7A132DE49 /* Pods-TheInfuser.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TheInfuser/TheInfuser.entitlements;
+				DEVELOPMENT_TEAM = 55GHPH66Y5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = TheInfuser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.danielbrackin.TheInfuser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		11BB2B581F4149F200ABDF02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA7EAE8B468226A1839D7C87 /* Pods-TheInfuser.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TheInfuser/TheInfuser.entitlements;
+				DEVELOPMENT_TEAM = 55GHPH66Y5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = TheInfuser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.danielbrackin.TheInfuser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11BB2B3F1F4149F200ABDF02 /* Build configuration list for PBXProject "TheInfuser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11BB2B541F4149F200ABDF02 /* Debug */,
+				11BB2B551F4149F200ABDF02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11BB2B561F4149F200ABDF02 /* Build configuration list for PBXNativeTarget "TheInfuser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11BB2B571F4149F200ABDF02 /* Debug */,
+				11BB2B581F4149F200ABDF02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11BB2B3C1F4149F200ABDF02 /* Project object */;
+}
